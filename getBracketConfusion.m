@@ -58,11 +58,8 @@ for i=1:length(pedgesh)
    end
 end
 hn=length(pedgesh)-ha-hh;
-na=length(pedgesat)-aa-ha;
-nh=length(pedgesht)-ah-hh;
 conf=[aa,ah,an;
-      ha,hh,hn;
-      na,nh,nn];
+      ha,hh,hn];
 ta=length(pedgesat);
 th=length(pedgesht);
 da=length(pedgesa);
